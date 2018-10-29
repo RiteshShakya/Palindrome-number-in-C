@@ -1,0 +1,23 @@
+#include <iostream>
+using std::cout;
+using std::cin;
+int main()
+{
+    int n, a,b=0,num;
+    cout<<" enter the number ";
+    cin>>n;
+    num=n;
+    while(n!=0)
+    {
+        a=n%10;
+        b=a+(b*10);
+        n=n/10;
+    }
+    
+    if(num==b)
+        cout<<"\nThe given number is palindrome";
+    else
+        cout<<"\nThe given number is not palindrome";
+ 
+    return 0;
+}

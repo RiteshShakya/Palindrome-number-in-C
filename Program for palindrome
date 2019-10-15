@@ -13,7 +13,7 @@ int main()
         b=a+(b*10);
         n=n/10;
     }
-    
+    //the palindrome file is helpful
     if(num==b)
         printf("\nThe given number is palindrome");
     else
